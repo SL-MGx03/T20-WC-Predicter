@@ -120,5 +120,7 @@ if __name__ == "__main__":
     model_0 = Win_Pred_Model(n_teams=meta["n_teams"], n_cities= meta["n_cities"]).to(device)
     train_model(model_0, train_tensors, test_tensors)
 
-    #save_artifacts(model_0,meta)
-    
+   
+    """ Use this command one time to save the model to local"""
+    #save_artifacts(model_0,meta) 
+
