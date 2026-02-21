@@ -135,22 +135,6 @@ Output:
 
 ---
 
-## Deployment Plan (Render)
-
-This repository is compatible with being deployed as a small API service:
-
-Suggested approach:
-- Use **FastAPI** to expose a `/predict` endpoint
-- Load the model + preprocessing artifacts once at startup
-- Accept JSON input and return prediction JSON
-
-When you are ready, you can add:
-- `app.py` (FastAPI application)
-- `requirements.txt`
-- `render.yaml` (optional)
-
----
-
 ## License
 
 MIT License. See [`LICENSE`](LICENSE).
