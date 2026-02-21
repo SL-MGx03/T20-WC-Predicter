@@ -29,7 +29,7 @@ This repository builds a match-level dataset from JSON ball-by-ball files, train
 - `features.py` — Utility functions (accuracy function).
 - `save_model.py` — Saves model weights and preprocessing artifacts.
 - `graphs.py` — Generic Matplotlib plotting helper (optional utility).
-- ``
+- `get-predict.py` - Prediction using saved model
 - `data_set/` — Folder containing match JSON files.
 
 ---
@@ -109,7 +109,7 @@ This produces:
 
 ## Inference (Load Model + Predict)
 
-After saving, you can load the trained model and run predictions using an inference script (for example `inference.py` / `load_model.py`).
+After saving, you can load the trained model and run predictions using an inference script (form `get-predict.py`).
 
 A prediction typically requires:
 
