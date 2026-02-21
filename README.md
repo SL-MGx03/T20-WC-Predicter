@@ -7,8 +7,8 @@ This repository builds a match-level dataset from JSON ball-by-ball files, train
 
 ## Try it 
 
-https://slmgx.live/cricket/t20
 You can tryout our pre-trained model . 
+- https://slmgx.live/cricket/t20
 
 ---
 
