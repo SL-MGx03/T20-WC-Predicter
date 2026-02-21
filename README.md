@@ -1,7 +1,14 @@
 # T20-WC-Predicter
 
 A PyTorch-based cricket match winner prediction project.  
-This repository builds a match-level dataset from JSON ball-by-ball files, trains a neural network with embeddings for categorical features (teams, city), and supports loading the saved model to run predictions. The project is structured so it can later be deployed as an API (for example on Render).
+This repository builds a match-level dataset from JSON ball-by-ball files, trains a neural network with embeddings for categorical features (teams, city), and supports loading the saved model to run predictions. The project is structured so it can later be deployed as an API .
+
+---
+
+## Try it 
+
+https://slmgx.live/cricket/t20
+You can tryout our pre-trained model . 
 
 ---
 
@@ -54,6 +61,8 @@ pip install torch numpy pandas scikit-learn joblib matplotlib
 ---
 
 ## Dataset
+
+Data Source: https://cricsheet.org/
 
 Place match JSON files inside:
 
@@ -138,5 +147,3 @@ Output:
 ## License
 
 MIT License. See [`LICENSE`](LICENSE).
-
-Made by https://slmgx.live
