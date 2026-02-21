@@ -139,4 +139,4 @@ Output:
 
 MIT License. See [`LICENSE`](LICENSE).
 
-https://slmgx.live
+Madeby https://slmgx.live
